@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" author="Ankur" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>HTML session</title>
+    <style>
+        body{
+            margin:5%;
+            border:4px solid;
+            height: 570px;
+            background-color: brown;
+        }
+        .maincontainer{
+            border: 10px solid blue;
+            background-color: whitesmoke;
+            height:550px;
+             
+        }
+        .fromcontainer{
+            margin:1%;
+            border: 5px solid skyblue;
+            height:425px;
+        }
+        .row{
+            margin:2%;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="maincontainer">
+       <center>
+        <h1>Register Yourself</h1>
+       </center>
+       <div class="fromcontainer">
+           
+            <div class="row">
+                <div class="col-sm-3 col-lg-6" style="background-color:yellow;">
+                    <label for="FName">First Name</label><br/>
+                    <input value="" id="FName" placeholder="Enter your First Name" />
+                </div>
+                <div class="col-sm-9 col-lg-6" style="background-color:rgb(146, 87, 115);">
+                    <label for="LName">Last Name</label><br/>
+                    <input value="" id="LName" placeholder="Enter your Last Name" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3  col-lg-6" style="background-color:yellow;">
+                    <label for="DOB">Date Of Birth</label><br/>
+                    <input type="date" id="DOB" placeholder="dd/mm/yyyy" >
+                </div>
+                <div class="col-sm-9  col-lg-6" style="background-color:rgb(146, 87, 115);">
+                        <label>Gender</label><br/>
+                        <input type="radio" id="M" >
+                        <label for="M">Male</label>                       
+                        <input type="radio" id="F" >
+                        <label for="F">Female</label>
+                </div>
+            </div>
+             <div class="row" >
+                        <div class="col-sm-3 col-md-6 col-lg-6" style="background-color:yellow;">
+                            <label for="Email">Email</label><br>
+                            <input value="" id="Email" placeholder="Enter your E-mail" >
+                        </div>
+                        <div class="col-sm-9 col-md-6 col-lg-6" style="background-color:rgb(146, 87, 115);">
+                            <label for="number">Phone Number</label><br>
+                            <input type="number" id="number" placeholder="Enter your Phone Number" >
+                        </div>
+             </div>
+             <div class="row">
+                            <div class="col-sm-3 col-md-6 col-lg-12" style="background-color:yellow;">
+                                <label for="Subject">Select Your Subject</label><br>
+                                <select id="Sub">
+                                    <option value="Maths">Maths</option>
+                                    <option value="Algo">Algo</option>
+                                    <option value="Java">Java</option>
+                                    <option value="Microcontroler">Microcontroler</option>
+                                </select>
+                             </div>
+             </div>
+            <div class="row" >
+                                <div class="col-sm-3 col-md-6 col-lg-12" style="background-color:yellow;">
+                                    <input type="checkbox" / >
+                                    <label>to agree with <a href="">Terms and Condition</a>Please check the box</label><br/>
+                                    <button>SUBMIT</button>
+                                </div>
+                                
+            </div>
+        </div>
+    </div>
+</div>
+
+  
+  
+</body>
+</html>
